@@ -8,7 +8,7 @@ app = create_app("development")
 
 # Use the app context so db.session works
 with app.app_context():
-    print("🌱 Seeding database...")
+    print("Seeding database...")
     
     Route.query.delete()
     Sacco.query.delete()
