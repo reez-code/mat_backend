@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "11bdb8da53dea8f3bb16d0dd705150cb3f10bbbac4f78477fb0e13aefd67987b"
+            "sha256": "642a799da28b5a050378341722ee7b3a8c10c59522597918cf78c05d205e6362"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -139,7 +139,7 @@
                 "sha256:f10fd42b5ee276335863712fa3da6608e93f70629c631bf77145021600abc23c",
                 "sha256:f28588772bb5fb869a8eb331374ec06f24a83a9c25bfa1f38b6993afe9c1e968"
             ],
-            "markers": "python_version < '3.14' and platform_machine == 'aarch64' or (platform_machine == 'ppc64le' or (platform_machine == 'x86_64' or (platform_machine == 'amd64' or (platform_machine == 'AMD64' or (platform_machine == 'win32' or platform_machine == 'WIN32')))))",
+            "markers": "platform_machine == 'aarch64' or (platform_machine == 'ppc64le' or (platform_machine == 'x86_64' or (platform_machine == 'amd64' or (platform_machine == 'AMD64' or (platform_machine == 'win32' or platform_machine == 'WIN32')))))",
             "version": "==3.2.4"
         },
         "itsdangerous": {
@@ -310,6 +310,15 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==2.9.9"
+        },
+        "python-dotenv": {
+            "hashes": [
+                "sha256:31f23644fe2602f88ff55e1f5c79ba497e01224ee7737937930c448e4d0e24dc",
+                "sha256:a8a6399716257f45be6a007360200409fce5cda2661e3dec71d23dc15f6189ab"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.9'",
+            "version": "==1.1.1"
         },
         "pytz": {
             "hashes": [
